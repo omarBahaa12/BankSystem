@@ -1,0 +1,9 @@
+D:\C#\BankSystem\ClientsBusinessTier\bin\Debug\ClientsBusinessTier.dll
+D:\C#\BankSystem\ClientsBusinessTier\bin\Debug\ClientsBusinessTier.pdb
+D:\C#\BankSystem\ClientsBusinessTier\bin\Debug\ClientDataTier.dll
+D:\C#\BankSystem\ClientsBusinessTier\bin\Debug\ClientDataTier.pdb
+D:\C#\BankSystem\ClientsBusinessTier\obj\Debug\ClientsBusinessTier.csproj.AssemblyReference.cache
+D:\C#\BankSystem\ClientsBusinessTier\obj\Debug\ClientsBusinessTier.csproj.CoreCompileInputs.cache
+D:\C#\BankSystem\ClientsBusinessTier\obj\Debug\ClientsBusinessTier.csproj.CopyComplete
+D:\C#\BankSystem\ClientsBusinessTier\obj\Debug\ClientsBusinessTier.dll
+D:\C#\BankSystem\ClientsBusinessTier\obj\Debug\ClientsBusinessTier.pdb

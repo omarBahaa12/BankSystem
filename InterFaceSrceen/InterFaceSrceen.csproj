@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B019C23F-C2E3-4B3F-B001-C02AB99A30E5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>InterFaceSrceen</RootNamespace>
+    <AssemblyName>InterFaceSrceen</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmAccountBalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAccountBalance.Designer.cs">
+      <DependentUpon>FrmAccountBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmScreen.Designer.cs">
+      <DependentUpon>FrmScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Users_Control\UCaccountBalancesList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users_Control\UCaccountBalancesList.Designer.cs">
+      <DependentUpon>UCaccountBalancesList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users_Control\UCAddClient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users_Control\UCAddClient.Designer.cs">
+      <DependentUpon>UCAddClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users_Control\UCAddUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users_Control\UCAddUser.Designer.cs">
+      <DependentUpon>UCAddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users_Control\UCClientsList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users_Control\UCClientsList.Designer.cs">
+      <DependentUpon>UCClientsList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users_Control\UCDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users_Control\UCDashboard.Designer.cs">
+      <DependentUpon>UCDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users_Control\UCDeleteClient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users_Control\UCDeleteClient.Designer.cs">
+      <DependentUpon>UCDeleteClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users_Control\UCDeleteUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users_Control\UCDeleteUser.Designer.cs">
+      <DependentUpon>UCDeleteUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users_Control\UCDeposite.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users_Control\UCDeposite.Designer.cs">
+      <DependentUpon>UCDeposite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users_Control\UCSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users_Control\UCSettings.Designer.cs">
+      <DependentUpon>UCSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users_Control\UCTransactionHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users_Control\UCTransactionHistory.Designer.cs">
+      <DependentUpon>UCTransactionHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users_Control\UCTransfer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users_Control\UCTransfer.Designer.cs">
+      <DependentUpon>UCTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users_Control\UCUpdate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users_Control\UCUpdate.Designer.cs">
+      <DependentUpon>UCUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users_Control\UCUpdateUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users_Control\UCUpdateUser.Designer.cs">
+      <DependentUpon>UCUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users_Control\UCUserList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users_Control\UCUserList.Designer.cs">
+      <DependentUpon>UCUserList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users_Control\UCWithdraw.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users_Control\UCWithdraw.Designer.cs">
+      <DependentUpon>UCWithdraw.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmAccountBalance.resx">
+      <DependentUpon>FrmAccountBalance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmScreen.resx">
+      <DependentUpon>FrmScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Users_Control\UCaccountBalancesList.resx">
+      <DependentUpon>UCaccountBalancesList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users_Control\UCAddClient.resx">
+      <DependentUpon>UCAddClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users_Control\UCAddUser.resx">
+      <DependentUpon>UCAddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users_Control\UCClientsList.resx">
+      <DependentUpon>UCClientsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users_Control\UCDashboard.resx">
+      <DependentUpon>UCDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users_Control\UCDeleteClient.resx">
+      <DependentUpon>UCDeleteClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users_Control\UCDeleteUser.resx">
+      <DependentUpon>UCDeleteUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users_Control\UCDeposite.resx">
+      <DependentUpon>UCDeposite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users_Control\UCSettings.resx">
+      <DependentUpon>UCSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users_Control\UCTransactionHistory.resx">
+      <DependentUpon>UCTransactionHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users_Control\UCTransfer.resx">
+      <DependentUpon>UCTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users_Control\UCUpdate.resx">
+      <DependentUpon>UCUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users_Control\UCUpdateUser.resx">
+      <DependentUpon>UCUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users_Control\UCUserList.resx">
+      <DependentUpon>UCUserList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users_Control\UCWithdraw.resx">
+      <DependentUpon>UCWithdraw.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClientsBusinessTier\ClientsBusinessTier.csproj">
+      <Project>{6766b2f2-e47e-4eed-8826-5d3d598894b8}</Project>
+      <Name>ClientsBusinessTier</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClientTransactionsBusinessTier\ClientTransactionsBusinessTier.csproj">
+      <Project>{915ffe24-3605-4eb7-99fd-fa2d23e7f23c}</Project>
+      <Name>ClientTransactionsBusinessTier</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UsersBusinessTier\UsersBusinessTier.csproj">
+      <Project>{d24a1c40-98f2-4df9-ba77-2a190c5c2859}</Project>
+      <Name>UsersBusinessTier</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unknown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cash-withdrawal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visual.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,6 @@
+D:\C#\BankSystem\ClientDataTier\bin\Debug\ClientDataTier.dll
+D:\C#\BankSystem\ClientDataTier\bin\Debug\ClientDataTier.pdb
+D:\C#\BankSystem\ClientDataTier\obj\Debug\ClientsDataTier.csproj.AssemblyReference.cache
+D:\C#\BankSystem\ClientDataTier\obj\Debug\ClientsDataTier.csproj.CoreCompileInputs.cache
+D:\C#\BankSystem\ClientDataTier\obj\Debug\ClientDataTier.dll
+D:\C#\BankSystem\ClientDataTier\obj\Debug\ClientDataTier.pdb
